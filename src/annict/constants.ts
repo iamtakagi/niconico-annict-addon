@@ -17,10 +17,10 @@ export const RATING_LABEL = {
 }
 
 export const RATING_COLOR = {
-  [RatingState.BAD]: "gray",
-  [RatingState.AVERAGE]: "pink",
-  [RatingState.GOOD]: "green",
-  [RatingState.GREAT]: "blue",
+  [RatingState.BAD]: "#757575",
+  [RatingState.AVERAGE]: "#ff6d00",
+  [RatingState.GOOD]: "#00c853",
+  [RatingState.GREAT]: "#00b0ff",
 }
 
 export const SEASON_LABEL = {

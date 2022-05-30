@@ -392,7 +392,7 @@ const AnnictRecorder: React.FC<{
                           type="button"
                           style={
                             rating === key
-                              ? { background: RATING_COLOR[key] }
+                              ? { background: RATING_COLOR[key], borderRadius: "0.375rem" }
                               : {}
                           }
                           onClick={() => {
