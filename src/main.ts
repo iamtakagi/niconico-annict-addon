@@ -16,11 +16,7 @@ window.onload = async () => {
     const tabContainer = body.querySelector<HTMLDivElement>(".col-1of12");
 
     if (tabContainer !== null) {
-      const accessToken = await browser.storage.sync
-        .get(["accessToken"])
-        .then((result) => {
-          return result.accessToken?.toString();
-        });
+      const accessToken = (await browser.storage.sync.get("accessToken"))["accessToken"]
 
       tabContainer.style.paddingLeft = "0"; //既存のスタイルが崩れるので左の padding を削除
 
@@ -96,7 +92,7 @@ window.onload = async () => {
                   recorderRoot.innerText = e.message;
                 });
             } else {
-              recorderRoot.innerText = "アクセストークンが設定されていません";
+              recorderRoot.innerText = "アクセストークンが未設定です。\nアドオンの設定からアクセストークンを設定してください。";
             }
           }
         }

@@ -1,9 +1,7 @@
 window.addEventListener("DOMContentLoaded", async () => {
     const accessTokenInput = document.getElementById("accessToken")
     if(accessTokenInput !== null && accessTokenInput instanceof HTMLInputElement) {
-        const accessToken = await browser.storage.sync.get(["accessToken"]).then((result) => {
-            return result.accessToken?.toString()
-        })
+        const accessToken = (await browser.storage.sync.get("accessToken"))["accessToken"]
         if(accessToken && typeof accessToken === "string") {
             accessTokenInput.value = accessToken
         }
@@ -13,13 +11,5 @@ window.addEventListener("DOMContentLoaded", async () => {
             }
             await browser.storage.sync.set({"accessToken": event.currentTarget.value});
         })
-    }
-})
-
-document.querySelector("form")?.addEventListener("submit", (event: SubmitEvent) => {
-    event.preventDefault();
-    const accessTokenInput = document.getElementById("accessToken")
-    if(accessTokenInput !== null && accessTokenInput instanceof HTMLInputElement) {
-        browser.storage.sync.set({"accessToken": accessTokenInput.value});
     }
 })
