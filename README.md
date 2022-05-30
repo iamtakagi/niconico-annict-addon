@@ -5,7 +5,7 @@
 ![](https://i.imgur.com/WnoQ0Dv.png)
 
 ## Install
-ストアリリースまで待ってね
+https://addons.mozilla.org/ja/firefox/addon/niconico-annict-addon/
 
 ## Features
 - ページ内にある作品名の要素を取得し、Annict から自動的に作品を検索します。
