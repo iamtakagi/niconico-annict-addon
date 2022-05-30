@@ -2,7 +2,7 @@
   "name": "niconico-annict-addon",
   "author": "iamtakagi",
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ニコニコ動画で Annict の視聴記録管理を可能にする Firefox Addon",
   "permissions": [
     "https://www.nicovideo.jp/watch/*",
