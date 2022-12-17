@@ -1,9 +1,7 @@
 # niconico-annict-addon
-[![Release](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml/badge.svg)](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml)\
+[![Release](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml/badge.svg)](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml)
 
-![](https://i.imgur.com/WnoQ0Dv.png)
-
-## Install
+## Installation
 https://addons.mozilla.org/ja/firefox/addon/niconico-annict-addon/
 
 ## Features
@@ -16,6 +14,9 @@ https://addons.mozilla.org/ja/firefox/addon/niconico-annict-addon/
 - [@kiraka/annict-web](https://github.com/kiraka/annict-web)
 - [@annict/annict-logo](https://github.com/annict/annict-logo)
 - [@ci7lus/miraktest-plugins/miraktest-annict](https://github.com/ci7lus/miraktest-plugins/tree/master/src/miraktest-annict)
+
+## Image
+![](https://i.imgur.com/WnoQ0Dv.png)
 
 ## LICENSE
 MIT License.
