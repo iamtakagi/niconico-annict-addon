@@ -1,6 +1,5 @@
 # niconico-annict-addon
 [![Release](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml/badge.svg)](https://github.com/iamtakagi/niconico-annict-addon/actions/workflows/release.yml)\
-ニコニコ動画での Annict の視聴記録管理を可能にする Firefox Addon
 
 ![](https://i.imgur.com/WnoQ0Dv.png)
 
