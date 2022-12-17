@@ -19,4 +19,5 @@ https://addons.mozilla.org/ja/firefox/addon/niconico-annict-addon/
 ![image](https://user-images.githubusercontent.com/46530214/208236324-56bf6418-9712-4b2a-a944-b383ab0ff589.png)
 
 ## LICENSE
-MIT License.
+MIT License\
+Copyright (c) 2022 iamtakagi
